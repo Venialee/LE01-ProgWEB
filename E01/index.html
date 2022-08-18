@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>EXERCÍCIO 1 - JORNAL</title>
+</head>
+
+<body>
+    <header>
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Fechar &times;</button>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Início</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Esporte</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Geopolítica</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Economia</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Finanças</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Cultura</a>
+            <a href="#" class="w3-bar-item w3-border-bottom w3-button">Tecnologia</a>
+        </div>
+        <div class="w3-bar w3-mobile">
+            <button class="w3-button w3-bar-item w3-mobile w3-text-white" onclick="w3_open()">☰</button>
+        </div>
+        <div class="showcase w3-mobile w3-center">
+            <div class="title-head">
+                <img class="w3-image img-header" src="img/jornal-logo.png" width="50%">
+                <h1>Newswave</h1> 
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <section class="w3-row n1">
+            <div class="w3-col s6 w3-mobile">
+                <img src="img/world.png" alt="World" width="80%" class="center w3-image w3-center">
+            </div>
+            <div class="w3-col s6 w3-mobile">
+                <h2>Estratégias em um Novo Paradigma Globalizado</h2>
+                <p>
+                    Caros amigos, a determinação clara de objetivos facilita a criação de alternativas às soluções
+                    ortodoxas. No mundo atual, a execução dos pontos do programa estimula a padronização do
+                    remanejamento dos quadros funcionais.
+
+                </p>
+                <p>
+                    Pensando mais a longo prazo, a estrutura atual da organização causa impacto indireto na reavaliação
+                    de todos os recursos funcionais envolvidos. Desta maneira, o entendimento das metas propostas
+                    garante a contribuição de um grupo importante na determinação do impacto na agilidade...
+                </p>
+                <p>
+                   <a href="">Ler mais...</a> 
+                </p>
+                <p class="author">Texto por Julia Mendonça em 22/07/2022</p>
+            </div>
+        </section>
+
+        <section class="w3-row n2">
+            <div class="w3-col s6 w3-mobile">
+                <h2>O Que Diriam os Pré-Socráticos?</h2>
+                <p>
+                    Caros amigos, a infinita diversidade da realidade única nos obriga à análise de conhecimentos
+                    empíricos provindos das afecções. Se uma das premissas é assertórica e a outra, problemática, a
+                    complexidade dos estudos efetuados cumpre um papel essencial na formulação da fundamentação
+                    metafísica das representações.
+
+                </p>
+                <p>
+
+                    No entanto, não podemos esquecer que o novo modelo estruturalista aqui preconizado auxilia a
+                    preparação e a composição das posturas dos filósofos divergentes com relação às atribuições
+                    conceituais.
+                </p>
+                <p>
+                    Como Deleuze eloquentemente mostrou, o início da atividade geral de formação de conceitos
+                    corresponde à intuição das essências fenomenológicas dos conhecimentos a priori. Poderia ser
+                    sugerido, entretanto, que o desafiador...
+                </p>
+                <p>
+                    <a href="">Ler mais...</a> 
+                </p>
+                <p class="author">Texto por Alex Souza em 14/07/2022</p>
+            </div>
+            <div class="w3-col s6 w3-mobile">
+                <img src="img/phy.jpg" alt="World" width="80%" class="center w3-image w3-center">
+            </div>
+        </section>
+
+        <section class="w3-row n1">
+            <div class="w3-col s6 w3-mobile">
+                <img src="img/vote.jpg" alt="World" width="80%" class="center w3-image w3-center">
+            </div>
+            <div class="w3-col s6 w3-mobile">
+                <h2>Falando ao Povo!</h2>
+                <p>
+                    Ainda assim, existem dúvidas a respeito de como a valorização de fatores subjetivos assume
+                    importantes posições no estabelecimento do impacto na agilidade decisória. É importante questionar o
+                    quanto o novo modelo de política aqui preconizado cumpre um papel essencial na formulação de
+                    alternativas às soluções ortodoxas.
+
+                </p>
+                <p>
+                    Neste sentido, a estrutura atual de poder faz parte de um processo político das posturas dos órgãos
+                    dirigentes com relação às suas atribuições. Todavia, o desafiador cenário político atual estende o
+                    alcance e a importância das novas proposições.
+                </p>
+                <p>
+                    As minhas experiências acumuladas no meio político demonstram que a consolidação das políticas
+                    públicas obstaculiza a apreciação da importância dos conhecimentos estratégicos para atingir a
+                    excelência...
+                </p>
+                <p>
+                    <a href="">Ler mais...</a> 
+                 </p>
+                 <p class="author">Texto por William Oliveira em 28/06/2022</p>
+            </div>
+        </section>
+
+    </article>
+
+    <footer>
+        <div class="w3-row">
+            <div class="w3-col s12 w3-mobile w3-center w3-margin">
+                <p class="w3-text-white"><strong>Todos os direitos reservados &copy;</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

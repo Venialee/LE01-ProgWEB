@@ -1,0 +1,84 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(128,149,255);
+    background: radial-gradient(circle, rgba(128,149,255,1) 20%, rgba(248,143,255,1) 72%, rgba(255,157,193,1) 100%);
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    width: 230px;
+}
+.conteudo > div {
+    padding: 1px;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#country {
+    width: 150px;
+}
+
+#interesse {
+    width: 150px;
+}
+
+.input1 {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 198px;
+}
+
+.input2 {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.select_country {
+    display: inline-block;
+}
+
+.interesse {
+    display: inline-block;
+}
+
+.age_select {
+    padding-top: 10px;
+}
+
+.feedback {
+    display: inline-block;
+}
+
+.conteudo {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.s6 {
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+button {
+    border: 1px solid #555555;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color:  rgba(128,149,255,1);
+}
